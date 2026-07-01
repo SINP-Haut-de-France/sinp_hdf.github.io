@@ -1,0 +1,106 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fce199d4-a390-4d69-9d9c-942a73bcef65\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/_config.yml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/index.md\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"EmbeddingIndexingInfo\">\n    <option name=\"cachedIndexableFilesCount\" value=\"10\" />\n    <option name=\"fileBasedEmbeddingIndicesEnabled\" value=\"true\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"McpProjectServerCommands\">\n    <commands />\n    <urls />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3,\n  &quot;fromUser&quot;: false\n}</component>\n  <component name=\"ProjectId\" id=\"3Fo4ONbfTGuooi9dsIP4KKG1FwK\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.MCP Project settings loaded\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\n    \"git-widget-placeholder\": \"dev\",\n    \"last_opened_file_path\": \"/home/ducrocqm/repository/sinp_hdf.github.io\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.23567.174\" />\n        <option value=\"bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fce199d4-a390-4d69-9d9c-942a73bcef65\" name=\"Changes\" comment=\"\" />\n      <created>1782728055031</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1782728055031</updated>\n      <workItem from=\"1782728056041\" duration=\"4000\" />\n      <workItem from=\"1782729610514\" duration=\"29000\" />\n      <workItem from=\"1782812497009\" duration=\"182000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e6d37b9b3afe55e612d5c92eb634f8150beaae95)
++++ b/.idea/workspace.xml	(date 1782895658414)
+@@ -1,10 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="ALL" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
++    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Add jekyll config">
++      <change afterPath="$PROJECT_DIR$/assets/images/header_sinp.png" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -12,7 +15,7 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="EmbeddingIndexingInfo">
+-    <option name="cachedIndexableFilesCount" value="10" />
++    <option name="cachedIndexableFilesCount" value="12" />
+     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+   </component>
+   <component name="Git.Settings">
+@@ -45,11 +48,20 @@
+     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+     "codeWithMe.voiceChat.enabledByDefault": "false",
+     "git-widget-placeholder": "dev",
+-    "last_opened_file_path": "/home/ducrocqm/repository/sinp_hdf.github.io",
++    "last_opened_file_path": "/home/ducrocqm/repository/sinp_hdf.github.io/assets/images",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/assets/images" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -67,11 +79,28 @@
+       <updated>1782728055031</updated>
+       <workItem from="1782728056041" duration="4000" />
+       <workItem from="1782729610514" duration="29000" />
+-      <workItem from="1782812497009" duration="182000" />
++      <workItem from="1782812497009" duration="1538000" />
++      <workItem from="1782827742161" duration="48000" />
++      <workItem from="1782886218993" duration="647000" />
++      <workItem from="1782888419461" duration="1759000" />
++      <workItem from="1782894910202" duration="691000" />
++    </task>
++    <task id="LOCAL-00001" summary="Add jekyll config">
++      <option name="closed" value="true" />
++      <created>1782812712178</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1782812712178</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Add jekyll config" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add jekyll config" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: _config.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>theme: jekyll-theme-minimal\ntitle: Octocat's homepage\ndescription: Bookmark this to keep an eye on my project updates!\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_config.yml b/_config.yml
+--- a/_config.yml	(revision e6d37b9b3afe55e612d5c92eb634f8150beaae95)
++++ b/_config.yml	(date 1782895658354)
+@@ -1,3 +1,5 @@
+ theme: jekyll-theme-minimal
+ title: Octocat's homepage
+ description: Bookmark this to keep an eye on my project updates!
++header:
++  image: /assets/images/.png
+\ No newline at end of file
