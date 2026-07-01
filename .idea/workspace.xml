@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Add jekyll config">
+      <change afterPath="$PROJECT_DIR$/assets/images/header_sinp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="10" />
+    <option name="cachedIndexableFilesCount" value="16" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -41,15 +44,34 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "dev",
+    "kronk.content.tree.expanded.paths": "|Pages|Pages/Tutos",
     "last_opened_file_path": "/home/ducrocqm/repository/sinp_hdf.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JekyllRunConfiguration" factoryName="JekyllConfigurationFactory">
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="additionalArgs" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,11 +89,30 @@
       <updated>1782728055031</updated>
       <workItem from="1782728056041" duration="4000" />
       <workItem from="1782729610514" duration="29000" />
-      <workItem from="1782812497009" duration="182000" />
+      <workItem from="1782812497009" duration="1538000" />
+      <workItem from="1782827742161" duration="48000" />
+      <workItem from="1782886218993" duration="647000" />
+      <workItem from="1782888419461" duration="1759000" />
+      <workItem from="1782894910202" duration="691000" />
+      <workItem from="1782895846175" duration="86000" />
+      <workItem from="1782895939656" duration="153000" />
     </task>
+    <task id="LOCAL-00001" summary="Add jekyll config">
+      <option name="closed" value="true" />
+      <created>1782812712178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782812712178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add jekyll config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jekyll config" />
   </component>
 </project>
